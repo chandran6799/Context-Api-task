@@ -36,7 +36,7 @@ const Cart = () => {
           <div
             key={i}
             className="card mb-5 bg-light text-dark"
-            style={{ minWidth: "100%", maxWidth: "300px" }}
+            style={{ minWidth: "100%", maxWidth: "300px"}}
           >
             <div className="row g-0">
               <div className="col-md-3">
@@ -62,7 +62,7 @@ const Cart = () => {
                         Discount Offer : <b>{e.discountPercentage}%</b>
                       </p>
                     </div>
-                    <p className="card-text">{e.description}</p>
+                    <p className="card-text" style={{color:"grey"}}>{e.description}</p>
                     <p className="card-text text-success">
                       Stock: {e.stock}
                     </p>
